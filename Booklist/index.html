@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 style="background-color: aquamarine; text-align: center; ">My Book List</h1>
+   <div style="margin: 0 auto; width: 25%;">
+     <div style="padding-top: 20px;"><h2>
+        Add book
+     </h2></div>
+    <label for="title" style="padding-top: 2rem;" ></label>
+    <input required type="text" name="title" id="title" placeholder="Write the title of a book" style="width: 300px; height: 40px; border-radius: 1rem; border-color: transparent; margin-top: 2rem;"/>
+    <label for="author" style="padding-top: 2rem;"></label>
+    <input required type="text" name="author" id="author" placeholder="Write the author of a book" style="width: 300px; height: 40px; border-radius: 1rem; border-color: transparent; margin-top: 2rem;"/>
+    <button type="button" style="margin-top: 1rem;" id="addBtn">Add book</button>
+
+    <div style="padding-top: 2rem;"><h2>
+        Delete Book
+    </h2></div>
+    <label for="delete"></label>
+    <input type="text" name="delete" id="title-delete" placeholder="Delete a book by title" style="width: 300px; height: 40px; border-radius: 1rem; border-color: transparent; margin-top: 2rem;"/>
+    <button type="button" style="margin-top: 1rem;" id="deleteBtn">Delete</button>
+   </div>
+    <div>
+        <h2>Booklist</h2>
+      <ol id="booklist">
+        
+      </ol>
+    </div>
+    <script type="module" src="bookList.js"></script>
+  </body>
+</html>
