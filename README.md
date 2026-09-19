@@ -2,7 +2,10 @@
 ## Small projects build on typescript and js for studying purpose
 
 ## Structure of repo:
-* **`01-book-app/`** - An application for enounter the books. Can be implemented for other projects as list of things. There are some features: *  Type Assertion (as HTML...Element), * Operating of state of elements instead straight manipulition od DOM elements, *Typescript config
+* **`01-book-app/`** - An application for enounter the books. Can be implemented for other projects as list of things. Features implemented:
+ * Type Assertion (as HTML...Element), 
+ * Operating of state of elements instead straight manipulition od DOM elements, 
+ * Typescript config
 
 ## Technologies:
 * Typescript with 'strict mode';
